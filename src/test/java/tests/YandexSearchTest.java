@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class YandexSearchTest {
 
     @Test
-    void yandexSearchTests() {
+    void selenideSearch() {
 
         open("https://www.yandex.ru/");
         $("#text").val("Selenide").pressEnter();
